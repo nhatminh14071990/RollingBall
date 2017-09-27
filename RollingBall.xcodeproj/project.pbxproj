@@ -12,6 +12,7 @@
 		83F7352A1F7AE34100E794B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F735281F7AE34100E794B0 /* Main.storyboard */; };
 		83F7352C1F7AE34100E794B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F7352B1F7AE34100E794B0 /* Assets.xcassets */; };
 		83F7352F1F7AE34100E794B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F7352D1F7AE34100E794B0 /* LaunchScreen.storyboard */; };
+		83F735391F7AE4CE00E794B0 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F735381F7AE4CE00E794B0 /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		83F7352B1F7AE34100E794B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83F7352E1F7AE34100E794B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83F735301F7AE34100E794B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F735381F7AE4CE00E794B0 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		83F735231F7AE34100E794B0 /* RollingBall */ = {
 			isa = PBXGroup;
 			children = (
+				83F735361F7AE4AF00E794B0 /* Resources */,
 				83F735241F7AE34100E794B0 /* AppDelegate.swift */,
 				83F735261F7AE34100E794B0 /* ViewController.swift */,
 				83F735281F7AE34100E794B0 /* Main.storyboard */,
@@ -62,6 +65,22 @@
 				83F735301F7AE34100E794B0 /* Info.plist */,
 			);
 			path = RollingBall;
+			sourceTree = "<group>";
+		};
+		83F735361F7AE4AF00E794B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83F735371F7AE4B800E794B0 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		83F735371F7AE4B800E794B0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				83F735381F7AE4CE00E794B0 /* ball.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +144,7 @@
 			files = (
 				83F7352F1F7AE34100E794B0 /* LaunchScreen.storyboard in Resources */,
 				83F7352C1F7AE34100E794B0 /* Assets.xcassets in Resources */,
+				83F735391F7AE4CE00E794B0 /* ball.png in Resources */,
 				83F7352A1F7AE34100E794B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
